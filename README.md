@@ -1,2 +1,2 @@
-# Accessible-Menu-Service
-Provide people with different eating habits a better restaurant experience.
+# Rad as Heck Menu Service
+When was the last time you had hella' rad vegetarian food?
