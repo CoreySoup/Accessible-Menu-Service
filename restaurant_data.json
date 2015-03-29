@@ -1,0 +1,644 @@
+{
+    "food_definitions": {
+        "dairy": ["milk","cheese", "ricotta cheese", "asiago cheese", "fontina cheese", "parmesan cheese"],
+        "fish": ["anchovy"],
+        "poultry": ["chicken"],
+        "red_meat": ["bacon", "pork", "sausage", "meatloaf"]
+    },
+    "diet_ingredient_exclusion_list": {
+        "vegetarian": ["red_meat", "fish", "poultry"],
+        "ovo-vegetarian": ["red_meat", "dairy", "poultry", "fish"],
+        "lacto-vegetarian": ["red_meat", "poultry", "fish", "egg"],
+        "vegan": ["red_meat", "dairy", "poultry", "fish", "egg"],
+        "pescatarian": ["red_meat", "dairy", "poultry", "egg"],
+        "pollotarian": ["red_meat"]
+    },
+    "diet_ingredient_inclusion_list": {
+        "vegetarian": ["dairy", "egg"],
+        "ovo-vegetarian": ["egg"],
+        "lacto-vegetarian": ["dairy"],
+        "vegan": [null],
+        "pescatarian": ["fish"],
+        "pollotarian": ["poultry", "fish", "dairy"]
+    },
+    "restaurant_list": [
+        {
+            "restaurant_name": "OTTO Pizza",
+            "address": {
+                "number": "888",
+                "street": "Commonwealth Avenue",
+                "city": "Boston",
+                "state": "MA",
+                "country": "USA",
+                "zip_code": "02446",
+                "latitude": "42.350575",
+                "longitude": "-71.115228"
+            },
+            "phone": "+16174993352",
+            "email": "contactus@ottoportland.com",
+            "website": "http://www.ottoportland.com/888comm.html",
+            "hours": [
+                ["sunday", "11:30", "20:00"],
+                ["monday", "11:30", "20:00"],
+                ["tuesday", "11:30", "20:00"],
+                ["wednesday", "11:30", "20:00"],
+                ["thursday", "11:30", "20:00"],
+                ["friday", "11:30", "03:00"],
+                ["saturday", "11:30", "03:00"]
+            ],
+            "currency": "USD",
+            "last_updated": "2015-03-29T01:10:00Z",
+            "dishes": [
+                {
+                    "dish_name": "Cheese",
+                    "dish_type": "Cheese Pizzas",
+                    "dish_price": [10.00, 15.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        "vegetarian",
+                        "pescatarian",
+                        "pollotarian",
+                        "lacto-vegetarian"
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "cheese",
+                        "tomato",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Ricotta & Basil",
+                    "dish_type": "Cheese Pizzas",
+                    "dish_price": [12.00, 19.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        "vegetarian",
+                        "pescatarian",
+                        "pollotarian",
+                        "lacto-vegetarian"
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "ricotta cheese",
+                        "tomato",
+                        "basil",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Three-Cheese Tortellini",
+                    "dish_type": "Cheese Pizzas",
+                    "dish_price": [11.00, 17.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        "vegetarian",
+                        "pescatarian",
+                        "pollotarian",
+                        "lacto-vegetarian"
+                    ],
+                    "diet_substitutions": [
+                        null
+                    ],
+                    "ingredients": [
+                        "cheese",
+                        "tomato",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "OTTO Four Cheese",
+                    "dish_type": "Cheese Pizzas",
+                    "dish_price": [13.00, 21.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        "vegetarian",
+                        "pescatarian",
+                        "pollotarian",
+                        "lacto-vegetarian"
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "cheese",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Margherita",
+                    "dish_type": "Veg Pizzas",
+                    "dish_price": [12.00, 19.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        "vegetarian",
+                        "pescatarian",
+                        "pollotarian",
+                        "lacto-vegetarian"
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "cheese",
+                        "tomato",
+                        "basil",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Butternut Squash, Ricotta & Cranberry",
+                    "dish_type": "Veg Pizzas",
+                    "dish_price": [13.00, 21.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        "vegetarian",
+                        "pescatarian",
+                        "pollotarian",
+                        "lacto-vegetarian"
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "ricotta cheese",
+                        "tomato",
+                        "butternut squash",
+                        "cranberry",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Kalamata Olive, Red Pepper, Garlic & Asiago",
+                    "dish_type": "Veg Pizzas",
+                    "dish_price": [12.00, 19.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        "vegetarian",
+                        "pescatarian",
+                        "pollotarian",
+                        "lacto-vegetarian"
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "asiago cheese",
+                        "tomato",
+                        "kalamata olive",
+                        "red pepper",
+                        "garlic",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Eggplant, Ricotta & Basil",
+                    "dish_type": "Veg Pizzas",
+                    "dish_price": [13.00, 21.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        "vegetarian",
+                        "pescatarian",
+                        "pollotarian",
+                        "lacto-vegetarian"
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "ricotta cheese",
+                        "tomato",
+                        "eggplant",
+                        "basil",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Spinach, White Bean & Roasted Garlic",
+                    "dish_type": "Veg Pizzas",
+                    "dish_price": [13.00, 21.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        "vegetarian",
+                        "pescatarian",
+                        "pollotarian",
+                        "lacto-vegetarian"
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "cheese",
+                        "tomato",
+                        "spinach",
+                        "white bean",
+                        "garlic",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Mushroom, Ricotta & Herb",
+                    "dish_type": "Veg Pizzas",
+                    "dish_price": [12.00, 19.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        "vegetarian",
+                        "pescatarian",
+                        "pollotarian",
+                        "lacto-vegetarian"
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "ricotta cheese",
+                        "tomato",
+                        "mushroom",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Mashed Potato, Bacon & Scallion",
+                    "dish_type": "Bacon & Pork Pizzas",
+                    "dish_price": [13.00, 21.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        null
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "cheese",
+                        "tomato",
+                        "mashed potato",
+                        "bacon",
+                        "scallion",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Pulled Pork & Mango",
+                    "dish_type": "Bacon & Pork Pizzas",
+                    "dish_price": [12.00, 19.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        null
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "cheese",
+                        "tomato",
+                        "pork",
+                        "mango",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Mushroom, Bacon & Vidalia Onion",
+                    "dish_type": "Bacon & Pork Pizzas",
+                    "dish_price": [13.00, 21.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        null
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "cheese",
+                        "tomato",
+                        "mushroom",
+                        "bacon",
+                        "vidalia onion",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Apple, Bacon & Red Onion",
+                    "dish_type": "Bacon & Pork Pizzas",
+                    "dish_price": [13.00, 21.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        null
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "cheese",
+                        "tomato",
+                        "apple",
+                        "bacon",
+                        "red onion",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Spicy Pulled Pork with Scallion & Herb",
+                    "dish_type": "Bacon & Pork Pizzas",
+                    "dish_price": [12.00, 19.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        null
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "cheese",
+                        "tomato",
+                        "pork",
+                        "scallion",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "White Bean, Sausage, Herb & Chili Flake",
+                    "dish_type": "Bacon & Pork Pizzas",
+                    "dish_price": [13.00, 21.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        null
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "cheese",
+                        "tomato",
+                        "white bean",
+                        "sausage",
+                        "chili flake",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Sausage & Vidalia Onion",
+                    "dish_type": "Bacon & Pork Pizzas",
+                    "dish_price": [12.00, 19.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        null
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "cheese",
+                        "tomato",
+                        "sausage",
+                        "vidaloa onion",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Pepperoni",
+                    "dish_type": "Chicken & Other Meat Pizzas",
+                    "dish_price": [11.00, 17.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        null
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "cheese",
+                        "tomato",
+                        "pepperoni",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Chicken & Basil",
+                    "dish_type": "Chicken & Other Meat Pizzas",
+                    "dish_price": [12.00, 19.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        "pollotarian"
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "cheese",
+                        "tomato",
+                        "chicken",
+                        "basil",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Roasted Chicken, Caramelized Pears & Fontina Cheese",
+                    "dish_type": "Chicken & Other Meat Pizzas",
+                    "dish_price": [13.00, 21.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        "pollotarian"
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "fontina cheese",
+                        "tomato",
+                        "chicken",
+                        "pear",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Meatloaf, Mashed Potato & Herb",
+                    "dish_type": "Chicken & Other Meat Pizzas",
+                    "dish_price": [13.00, 21.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        null
+                    ],
+                    "diet_substitutions": [
+                        "gluten-free"
+                    ],
+                    "ingredients": [
+                        "cheese",
+                        "tomato",
+                        "meatloaf",
+                        "mashed potato",
+                        "wheat flour",
+                        "salt"
+                    ]
+                },
+                {
+                    "dish_name": "Toppings",
+                    "dish_type": "Toppings",
+                    "dish_price": [1.00, 2.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        null
+                    ],
+                    "diet_substitutions": [
+                        null
+                    ],
+                    "ingredients": [
+                        null
+                    ]
+                },
+                {
+                    "dish_name": "House",
+                    "dish_type": "Salads",
+                    "dish_price": [5.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        "vegetarian",
+                        "pescatarian",
+                        "vegan",
+                        "pollotarian",
+                        "ovo-vegetarian",
+                        "lacto-vegetarian"
+                    ],
+                    "diet_substitutions": [
+                        null
+                    ],
+                    "ingredients": [
+                        "lettuce"
+                    ]
+                },
+                {
+                    "dish_name": "Caesar",
+                    "dish_type": "Salads",
+                    "dish_price": [6.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        "pescatarian"
+                    ],
+                    "diet_substitutions": [
+                        null
+                    ],
+                    "ingredients": [
+                        "lettuce",
+                        "anchovy",
+                        "parmesan cheese"
+                    ]
+                },
+                {
+                    "dish_name": "Spinach",
+                    "dish_type": "Salads",
+                    "dish_price": [7.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        "Vegetarian",
+                        "pescatarian",
+                        "pollotarian",
+                        "lacto-vegetarian"
+                    ],
+                    "diet_substitutions": [
+                        null
+                    ],
+                    "ingredients": [
+                        "spinach",
+                        "vegan",
+                        "ovo-vegetarian"
+                    ]
+                },
+                {
+                    "dish_name": "Tomato",
+                    "dish_type": "Salads",
+                    "dish_price": [7.00],
+                    "dish_description": null,
+                    "dish_hours_start": null,
+                    "dish_hours_end": null,
+                    "compatible_diets": [
+                        "Vegetarian",
+                        "pescatarian",
+                        "vegan",
+                        "pollotarian",
+                        "ovo-vegetarian",
+                        "lacto-vegetarian"
+                    ],
+                    "diet_substitutions": [
+                        null
+                    ],
+                    "ingredients": [
+                        "tomato"
+                    ]
+                }
+            ]
+        }
+    ]
+}
